@@ -1,0 +1,38 @@
+// Constants used in JS files
+
+var ELEV_RIGHT = 56;
+var ELEV_LEFT = 57
+var COLOR_WHITE = "white";
+var COLOR_YELLOW = "yellow";
+var GROUND_FLOOR_HEIGHT = 475;
+var SECOND_FLOOR_HEIGHT = 325;
+var THIRD_FLOOR_HEIGHT = 175;
+var FOURTH_FLOOR_HEIGHT = 25;
+
+//Constants for external buttons
+
+var FOURTH_FLOOR_EXTERNAL_BUTTON = 20;
+var THIRD_FLOOR_EXTERNAL_BUTTON_UP = 21;
+var THIRD_FLOOR_EXTERNAL_BUTTON_DOWN = 22;
+var SECOND_FLOOR_EXTERNAL_BUTTON_UP = 23;
+var SECOND_FLOOR_EXTERNAL_BUTTON_DOWN =  24;
+var GROUND_FLOOR_EXTERNAL_BUTTON = 25;
+
+//Constants for Penguin positions
+var PENGUIN_MIDDLE = 220;
+var PENGUIN_RIGHT = 320;
+var PENGUIN_LEFT = 120;
+
+//New ones ..... 
+var ALARM_LEFT = 30;
+var ALARM_RIGHT = 31;
+var PUSH_TO_CANCEL_LEFT = 32;
+var PUSH_TO_CANCEL_RIGHT = 33;
+var FIRE_LEFT = 34;
+var FIRE_RIGHT = 35;
+var PUSH_TO_CALL_LEFT = 36;
+var PUSH_TO_CALL_RIGHT = 37;
+
+// elevator distance between floors
+var Y_ELEV_DISTANCE = 150;
+var ELEVATOR_SPEED = 7500; //time

@@ -1,0 +1,118 @@
+/* margins for pushing the external controllers to the middle*/
+#fourthFloorExternal {
+	margin-left: 220px;
+}
+
+#thirdFloorExternal {
+	margin-left: 220px;
+}
+
+#secondFloorExternal {
+	margin-left: 220px;
+}
+
+#groundFloorExternal {
+	margin-left: 220px;
+}
+
+/* the container for the entire workspace */
+#container{
+	width: 960px;
+	margin: 0 auto;
+	/*background-color: blue;*/
+}
+
+/*the left side panel for internal controls*/
+#primary{
+	float:left;
+	width:240px;
+	height:600px;
+	/*margin-left: 0%;*/
+	/*background-color: red;*/
+}
+
+/*the right side panel for internal controls*/
+#secondary{
+	float:left;
+	width:240px;
+	height: 600px;
+	/*background-color: red;*/
+}
+
+#footer{
+	/*clear:both;*/
+	background-color: yellow;
+}
+
+/* container for the middle to include elevators, external control and penguin */
+#content{
+	float:left;
+	width:480px;
+	height: 600px;
+	/*background-color: yellow;*/
+}
+
+/* container for left elevator */
+#middleLeft{
+	float:left;
+	height:600px;
+	width:60px;
+	/*background-color: black;*/
+}
+/* the middle of the page containing penguins and external controls */
+#middle{
+	float:left;
+	width:360px;
+	height:600px;
+	/*margin-left:-60;*/
+	/*background-color: yellow;*/
+}
+
+#fourthFloor{
+	margin:0;
+	padding:0;
+	float:left;
+	width:480px;
+	height:150px;
+	margin-left: -60;
+	/*background-color: brown;*/
+}
+
+#thirdFloor{
+	margin:0;
+	padding:0;
+	float:left;
+	width:480px;
+	height:150px;
+	margin-left: -60;
+	/*background-color: blue;*/
+}
+
+#secondFloor{
+	margin:0;
+	padding:0;
+	float:left;
+	width:480px;
+	height:150px;
+	margin-left:-60;
+	/*background-color: brown;*/
+}
+
+#groundFloor{
+	margin:0;
+	padding:0;
+	float:left;
+	width:480px;
+	height:150px;
+	margin-left: -60;
+	/*background-color: blue;*/
+}
+
+body{
+-webkit-user-select: none; 
+-khtml-user-select: none; 
+-moz-user-select: none; 
+-o-user-select: none; 
+user-select: none; 
+cursor: pointer;
+}
